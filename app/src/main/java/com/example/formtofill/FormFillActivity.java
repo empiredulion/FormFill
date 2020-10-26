@@ -45,7 +45,7 @@ public class FormFillActivity extends AppCompatActivity {
 
         birthDay.setText(sdf.format(myCalendar.getTime()));
     }
-    
+
         @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
