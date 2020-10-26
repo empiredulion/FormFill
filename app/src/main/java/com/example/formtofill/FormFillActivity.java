@@ -26,7 +26,6 @@ public class FormFillActivity extends AppCompatActivity {
     TextView birthDay, isOK;
     EditText FirstN, LastN, Email, Adress;
     CheckBox AgreeBox;
-    int isFirst, isLast, isGender, isBirth, isAddress, isEmail, isBox;
 
     DatePickerDialog.OnDateSetListener date = new DatePickerDialog.OnDateSetListener() {
 
@@ -46,8 +45,7 @@ public class FormFillActivity extends AppCompatActivity {
 
         birthDay.setText(sdf.format(myCalendar.getTime()));
     }
-
-
+    
         @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
